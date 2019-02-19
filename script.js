@@ -1,50 +1,38 @@
 
-
-/*$("#bold").click(function() {
-    $("#paragraph").css('font-weight', 'bold');
-});*/
 $("#bold").click(function(){
     $("#paragraph").css('font-weight','bold');
 })
-function Italic()
-{
-    document.getElementById("paragraph").style.fontStyle = "italic";
-}
-function underlined()
-{
-    document.getElementById("paragraph").style.textDecoration = "underline";
-}
+$("#italic").click(function(){
+    $("#paragraph").css('fontStyle','italic');
+})
+$("#underlined").click(function(){
+    $("#paragraph").css('textDecoration','underline');
+})
+$("#font1").click(function(){
+    $("#paragraph").css("font-family","'Roboto', sans-serif");
+})
+$("#font2").click(function(){
+    $("#paragraph").css("fontFamily","'Felipa', 'cursive'");
+})
+$("#font3").click(function(){
+    $("#paragraph").css("fontFamily","'Coiny', 'cursive'");
+})
+$("#font4").click(function(){
+    $("#paragraph").css("fontFamily","'ZCOOL QingKe HuangYou', 'cursive'");
+})
 
-function font1()
-{
-    document.getElementById("paragraph").style.fontFamily = "'Roboto', sans-serif";
-}
-function font2()
-{
-    document.getElementById("paragraph").style.fontFamily = "'Felipa', cursive";
-}
-function font3()
-{
-    document.getElementById("paragraph").style.fontFamily = "'Coiny', cursive";
-}
-function font4()
-{
-    document.getElementById("paragraph").style.fontFamily = "'ZCOOL QingKe HuangYou', cursive";
-}
+$("#size1").click(function(){
+    $("#paragraph").css("fontSize","10px");
+})
+$("#size2").click(function(){
+    $("#paragraph").css("fontSize","20px");
+})
+$("#size3").click(function(){
+    $("#paragraph").css("fontSize","30px");
+})
+$("#size4").click(function(){
+    $("#paragraph").css("fontSize","40px");
+})
 
-function size1()
-{
-    document.getElementById("paragraph").style.fontSize = "10px";
-}
-function size2()
-{
-    document.getElementById("paragraph").style.fontSize = "20px";
-}
-function size3()
-{
-    document.getElementById("paragraph").style.fontSize = "30px";
-}
-function size4()
-{
-    document.getElementById("paragraph").style.fontSize = "40px";
-}
+
+

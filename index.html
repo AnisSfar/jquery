@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="script.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Coiny|Felipa|Roboto|ZCOOL+QingKe+HuangYou" rel="stylesheet">
 
 
@@ -16,24 +15,24 @@
 <div id="div">
     <div class="buttons">
         <button  id="bold"  class="button" >Bold</button>
-        <button class="button" onclick="Italic()">Italic</button>
-        <button class="button" onclick="underlined()">Underlined</button>
+        <button class="button" id="italic" >Italic</button>
+        <button class="button" id="underlined" >Underlined</button>
         <div class="dropdown">
-         <button class="button" onclick="myFunction()">Font-style</button>
+         <button class="button" id="font">Font-style</button>
            <div class="dropdown-content">
-                <button class="button" onclick="font1()">Roboto</button>
-                <button class="button" onclick="font2()">Felipa</button>
-                <button class="button" onclick="font3()">Coiny</button>
-                <button class="button" onclick="font4()">ZCOOL QingKe HuangYou</button>
+                <button class="button" id="font1">Roboto</button>
+                <button class="button" id="font2">Felipa</button>
+                <button class="button" id="font3">Coiny</button>
+                <button class="button" id="font4">ZCOOL QingKe HuangYou</button>
            </div>
         </div>
         <div class="dropdown">
-         <button class="button" onclick="myFunction()">Font-size</button>
+         <button class="button" id="size">Font-size</button>
            <div class="dropdown-content">
-            <button class="button" onclick="size1()">10px</button>
-            <button class="button" onclick="size2()">20px</button>
-            <button class="button" onclick="size3()">30px</button>
-            <button class="button" onclick="size4()">40px</button>
+            <button class="button" id="size1" >10px</button>
+            <button class="button" id="size2" >20px</button>
+            <button class="button" id="size3" >30px</button>
+            <button class="button" id="size4" >40px</button>
            </div>
          </div>
     </div>
@@ -43,3 +42,5 @@
 </div>
 </body>
 </html>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
